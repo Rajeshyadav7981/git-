@@ -1,1 +1,35 @@
 Git practised commands->
+
+1)how to initialize git repository.
+
+to initialize a git into a repository change directory into the folder in cli and run the cmd "git init" which i itialize the git
+
+2)add a file 
+
+To add a file to staging area from working directory run cmd "git add "filename"" which add the file from working to staging atea.
+
+3)Make commit
+
+Before make commit of a folder/file we need to add the required files/folder to staging area by "git add <file/folder>" then make commit by run cmd "git commit -m "message to deliver".
+ In which it shows the changes what we have done.
+
+ 4)create a branc
+ To create a branch we use cmd "git checkout -b "branch name" which create a branch with all data in master to your branch.
+
+ to jump between branchs we use cmd "git checkout "branch name".
+ to know which branch we are at "git branch"
+
+ 5)staging area
+
+ Staging area is the one,in which when we make changes in our and need to push the code into remote rep,
+ we first add the files which we wnat to push .At the time we add the files  from our working to staging which can be commit and push.
+
+To add files /folders from working to staging we use command "git add "filname/foldername"
+
+git cmds:
+!)git init->to initialize git 
+2)git add "filname/foldername
+3)git commit -m "message to deliver
+4)git add remote origin "remote origin link"
+5)git push "main/master"
+6)git push --set-upstream origin "branch name"
